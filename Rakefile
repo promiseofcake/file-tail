@@ -15,7 +15,7 @@ GemHadar do
   readme      'README.rdoc'
   licenses << 'GPL-2.0'
 
-  dependency  'tins', '~>1.0'
+  dependency  'tins', '~>1.6.0'
 
   development_dependency 'test-unit', '~>2.4.0'
 

@@ -26,15 +26,15 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<gem_hadar>, ["~> 1.0.0"])
       s.add_development_dependency(%q<test-unit>, ["~> 2.4.0"])
-      s.add_runtime_dependency(%q<tins>, ["~> 1.0"])
+      s.add_runtime_dependency(%q<tins>, ["~> 1.6.0"])
     else
       s.add_dependency(%q<gem_hadar>, ["~> 1.0.0"])
       s.add_dependency(%q<test-unit>, ["~> 2.4.0"])
-      s.add_dependency(%q<tins>, ["~> 1.0"])
+      s.add_dependency(%q<tins>, ["~> 1.6.0"])
     end
   else
     s.add_dependency(%q<gem_hadar>, ["~> 1.0.0"])
     s.add_dependency(%q<test-unit>, ["~> 2.4.0"])
-    s.add_dependency(%q<tins>, ["~> 1.0"])
+    s.add_dependency(%q<tins>, ["~> 1.6.0"])
   end
 end
